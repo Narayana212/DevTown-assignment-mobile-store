@@ -58,13 +58,13 @@ const ProductReel = (props: ProductReelProps) => {
       <div className='relative'>
         <div className='mt-6 flex items-center w-full'>
           <div className='w-full grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-10 lg:gap-x-8'>
-            {products.length > 0 ? products.map((product, i) => (
+            { products.map((product, i) => (
               <ProductListing
                 key={`product-${i}`}
                 product={product}
                 index={i}
               />
-            )):"No products found"}
+            ))}
           </div>
         </div>
       </div>
