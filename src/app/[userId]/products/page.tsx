@@ -79,9 +79,7 @@ const ProductsPage = () => {
                   </div>
                 </RadioGroup>
               </div>
-              <div className="w-[80%] px-3 mt-5">
-                <Button size={"sm"}>Apply Filters</Button>
-              </div>
+             
             </SheetContent>
           </Sheet>
         </div>
