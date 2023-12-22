@@ -16,7 +16,7 @@ export async function getProducts(query:any){
             { description: { $regex: search, $options: 'i' } },
           ],
         },
-        { os: { $in: ['Android', 'iOS'] } }, 
+        { os: { $in: label } }, 
         { price: { $lte: query?.price } }, 
       ]
     }).limit(query.limit);
