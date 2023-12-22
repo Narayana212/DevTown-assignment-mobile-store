@@ -24,7 +24,7 @@ const ProductsPage = () => {
     debouncedOnChange(searchTerm);
     setValue(searchTerm);
   };
-  const [price, setPrice] = useState<number[]>([750]);
+  const [price, setPrice] = useState<number[]>([1500]);
 
   return (
     <MaxWidthWrapper>
