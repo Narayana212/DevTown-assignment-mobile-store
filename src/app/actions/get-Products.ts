@@ -16,10 +16,12 @@ export async function getProducts(query:any){
             { description: { $regex: search, $options: 'i' } },
           ],
         },
-        { os: { $in: label } }, 
-        { price: { $lte: query?.price } }, 
-      ]
-    }).limit(query.limit);
+        { os: { $in: label } },
+        { price: { $lte: query?.price } },
+      ],
+    })
+      .sort({ _id: query?.order }) 
+      .limit(query?.limit);
     
     return products 
 }

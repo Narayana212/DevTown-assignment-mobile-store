@@ -91,6 +91,7 @@ const ProductsPage = () => {
           search: value,
           label,
           price:price[0],
+          order:1
         }}
       />
     </MaxWidthWrapper>

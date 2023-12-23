@@ -10,7 +10,7 @@ export default function Home() {
         <Hero/>
         <MaxWidthWrapper>
         <ProductReel
-          query={{ limit: 4,search:'',price:1500 }}
+          query={{ limit: 4,search:'',price:1500,label:"both",order:-1 }}
           href='/products?sort=recent'
           title='Brand new'
         />
