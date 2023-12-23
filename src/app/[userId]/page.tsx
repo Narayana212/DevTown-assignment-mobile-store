@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div>
+    <>
         <Hero/>
         <MaxWidthWrapper>
         <ProductReel
@@ -16,6 +16,6 @@ export default function Home() {
         />
         </MaxWidthWrapper>
 
-    </div>
+    </>
   )
 }
