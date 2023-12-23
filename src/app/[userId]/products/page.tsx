@@ -10,6 +10,7 @@ import { Slider } from "@/components/ui/slider";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
+import Footer from "@/components/footer";
 
 const ProductsPage = () => {
   const [value, setValue] = useState("");
@@ -94,6 +95,7 @@ const ProductsPage = () => {
           order:1
         }}
       />
+       
     </MaxWidthWrapper>
   );
 };
