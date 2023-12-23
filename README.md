@@ -24,7 +24,7 @@ bun dev
 
 Video demo:
 
-<iframe width="560" height="315" src="https://player.cloudinary.com/embed/v1703311807/Recording_2023-12-23_104704_1_pqoihe.mp4" frameborder="0" allowfullscreen></iframe>
+[![Video Tutorial](https://res.cloudinary.com/diynkxbpc/video/upload/v1703311807/Recording_2023-12-23_104704_1_pqoihe.jpg)](https://res.cloudinary.com/diynkxbpc/video/upload/v1703311807/Recording_2023-12-23_104704_1_pqoihe.mp4)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
